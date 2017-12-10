@@ -1,0 +1,116 @@
+body {
+	background-color: black;
+	margin: 0px;
+	overflow: hidden;
+}
+#game {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+}
+section {
+	margin: 0px;
+}
+#choose {
+	top: 120px;
+	left: 43%;
+	position: absolute;
+}
+nav {
+
+}
+footer {
+	background-color: black;
+	height: 20px;
+	bottom: 0;	position: absolute;
+	text-align: center;width:100%;
+}
+#shit {
+	height: 150px;
+	bottom: 40px;
+	right: 20%;	
+	position: absolute;
+	width:60%;
+	background-color: gray;
+	border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    overflow: auto;
+}
+img {
+	background-size: cover;
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 15px;
+}
+
+button:hover {background-color: blue}
+
+button:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#sound1 {
+
+}
+#sound2 {
+	
+}
+#nav {
+	
+}
+#item {
+	top: 0px;
+	left: 0%;
+	max-height: 35px;
+	max-width: 35px;
+}
+#second {
+	top: 120px;
+	left: 43%;
+}
+#theerde {
+	top: 120px;
+	left: 43%;
+}
+#four {
+	top: 120px;
+	left: 43%;
+}
+#five {
+	top: 120px;
+	left: 43%;
+}
+#six {
+	top: 120px;
+	left: 43%;
+}
+#seven {
+	top: 120px;
+	left: 43%;
+}
+#zombie_ghost {
+	bottom: 200px;
+	right: 25%;	
+	position: absolute;
+}
+#zombie1 {
+	bottom: 200px;
+	left: 25%;	
+	position: absolute;
+}
+section p {
+	text-align: center;
+}

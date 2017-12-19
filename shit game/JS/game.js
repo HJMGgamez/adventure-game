@@ -82,11 +82,13 @@ function tell2 ()
 	callerlog();
 	q++;
 }
+
 function tellh ()
 {
 	hallwaylog();
 	h++;
 }
+
 function true1 ()
 {
 	c = 19;
@@ -94,19 +96,22 @@ function true1 ()
 	livingroomLog();
 	
 }
+
 function true2 ()
 {
 	d = 11;
 	end2 = true;
 	kitchenLog();
 }
+
 function true3 ()
 {
 	g = 6;
 	end3 = true;
 	bedroomlog();
 }
-function talk ()
+
+function talk()
 {
 	if (a == 0){
 		window.alert("this is a visual noval and you play by clicking on the buttons by some points and to progress the story click on the text bar. you win by getting trough the door.")
@@ -163,6 +168,7 @@ function talk ()
 		text.innerHTML = "game over"
 	}		
 } 
+
 function talk2 ()
 {
 	displayNone2()
@@ -603,6 +609,9 @@ function hallwaylog ()
 		doorlog();
 	}
 }
+
+
+
 function callerlog()
 {
 	if (q == 0){
